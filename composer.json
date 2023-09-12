@@ -2,20 +2,17 @@
     "name": "kavience/ruyicmf-app",
     "description": "The RuYiCMF App Package",
     "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "kavience",
-            "email": "kavience@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "kavience",
+        "email": "kavience@gmail.com"
+    }],
     "require": {
-        "ruyicmf/cmf": "^6.0.0"
+        "kavience/ruyicmf-core": "^6.0.0"
     },
     "autoload": {
         "psr-4": {
             "app\\": "src"
         },
-        "files": [
-        ]
+        "files": []
     }
 }
